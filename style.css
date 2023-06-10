@@ -7,10 +7,11 @@
 html,body{
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 
 }
 #page1{
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     background-color: #C5BEB4;
     position: relative;
@@ -41,4 +42,106 @@ nav h5{
 nav i{
     width: 30%;
     text-align: right;
+}
+/* after navigation */
+#blocks{
+    height: 44vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 70px;
+}
+.blk{
+    width: 30%;
+    height: 100%;
+     
+
+}
+.blk h4{
+  font-family: canopee;
+    font-size: 20px;
+    margin-top: 10px;
+    letter-spacing: .01vh;
+    color: #1C1B19;
+}
+.blk h4 span{
+    background-color: orangered;
+    color: #fff;
+    font-weight: 100;
+    font-size: 17px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.blk p{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: -0.1vh;
+    /* font-optical-sizing: 100; */
+    /* font-stretch: condensed; */
+}
+#blk2{
+    padding: 20px 60px;
+    text-align: center;
+    border-right: 2px solid #827f7f;
+    border-left: 2px solid #827f7f;
+}
+#blk2 h2{
+    font-family:Domaine;
+    font-size: 6vh;
+}
+#blk2 h3{
+    /* background-color: red; */
+    font-size: 30px;
+    font-weight: 100;
+    
+}
+#blk2 h6{
+    padding-top:1vh ;
+    font-size: 13px;
+    font-weight: 100    ;
+}
+#blocks .img{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    border:1px solid #222;
+}
+#blocks .img:hover img{
+    scale: 1.2;
+}
+#blocks .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+
+}
+
+#marinda{
+    background-color: aliceblue;
+
+}
+#page1 h1{
+    /* background-color: #1C1C19;
+    /* height: 150px; */
+
+    /* font-size: 260px;
+    letter-spacing: -8px;
+    width: 94%;
+    margin: auto;
+    color: #C6BEB4;
+    line-height: 80px; */
+
+    font-size: 500px;
+    font-weight:100;
+    font-family: canopee;
+    background-color: #1c1c19;
+    color: #c4bcb3;
+    line-height: 430px;
+    width: 96%;
+    margin: auto;
+    letter-spacing: -18px;
+
 }
